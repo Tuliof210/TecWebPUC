@@ -1,0 +1,141 @@
+.grid {
+    display: grid;
+}
+
+.page {
+    grid-template-columns: 1fr 5fr;
+    height: 100px;
+}
+
+.conteudo {
+    padding: 0 0 0 10px;
+    grid-auto-flow: row;
+}
+
+.menu {
+    background-color: aliceblue;
+}
+
+#logo img {
+    padding-left: 15px;
+    width: 90%;
+}
+
+.links div {
+    padding: 20px 0;
+    border-color: rgb(140, 144, 144);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.links div a {
+    bottom: 0;
+    padding: 20px 0;
+    text-decoration: none;
+    color: rgba(97, 15, 97, 0.383);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.links div:hover {
+    background-color: rgb(93, 130, 209);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    position: relative;
+    float: right;
+}
+
+.mid {
+    grid-auto-flow: row;
+    position: relative;
+    float: left;
+}
+
+.bot iframe {
+    width: 1000px;
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.content-header {
+    padding: 30px 0 10px 100px;
+    grid-auto-flow: column;
+}
+
+.content-header div {
+    background-color: darkblue;
+    padding: 10% 0;
+    width: 80%;
+    text-align: center;
+}
+
+.content-header div img {
+    text-align: center;
+    width: 200px;
+}
+
+.content-body {
+    padding: 3% 0;
+    grid-auto-flow: column;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.text ul li {
+    text-emphasis: none;
+    display: inline;
+}
+
+.text ul li img {
+    padding: 10px;
+    width: 20%;
+}
+
+#img-video {
+    margin: 18px;
+    position: relative;
+    float: right;
+}
+
+
+/*Antigo*/
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(17, 180, 126);
+}
+
+footer p {
+    position: absolute;
+}
+
+footer a img {
+    position: relative;
+    width: 50px;
+    float: right;
+    margin: 10px 20px;
+}
+
+p,
+h1 {
+    margin: 18px;
+}
+
+body {
+    /*width: 980px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*Scrolling suave*/
+}
